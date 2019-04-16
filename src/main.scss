@@ -1,0 +1,39 @@
+// VARIABLE COLOR
+$red : #ff4444;
+$whitesmoke : #f1f1f1; 
+$white: #ffffff;
+$dark: #303030;
+$grey: #707070;
+
+
+// VARIABLE FONT
+$font-reg: 400;
+$font-med: 600;
+
+// MIXIN 
+@mixin text-center {
+    text-align: center;
+}
+
+body {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+h1,h2,h3,h4,h5,h6,p {
+    margin-top: 0;
+}
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+.app {
+    background: $white;
+    height: 100vh;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
